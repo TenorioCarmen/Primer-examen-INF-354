@@ -36,4 +36,8 @@ plt.show()
 #de la glucosa 
 #Como se puede observar en el grafico, en la correlacion observamos que que a mayor 
 #cantidad de insulina se vera alrededor de la misma cantidad la glucosa en la sangre 
-#
+
+
+#matriz con scatterplot
+df.info()
+pd.plotting.scatter_matrix(df.loc[:,'Age':'MCP.1'])
